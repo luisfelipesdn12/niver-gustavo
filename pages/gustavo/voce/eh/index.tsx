@@ -7,7 +7,7 @@ const Eh: React.FC = () => {
 
     return (
         <FullImage
-            src="/incrivel.jpg"
+            src="/gustavo_selfie.jpg"
             onClick={() => {
                 const text = prompt();
                 if (text === "incrivel" || text === "incrível") {

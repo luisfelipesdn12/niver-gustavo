@@ -7,7 +7,7 @@ const Voce: React.FC = () => {
 
     return (
         <FullImage
-            src="/eh.png"
+            src="/estralahumberto.png"
             onClick={() => {
                 const text = prompt();
                 if (text === "eh" || text === "é") {
