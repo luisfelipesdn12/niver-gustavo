@@ -1,8 +1,10 @@
 import { useRouter } from 'next/router';
-import React from 'react';
+import React, { useState } from 'react';
 
 const Gvstavo: React.FC = () => {
     const router = useRouter();
+
+    const [hinted, setHinted] = useState(false);
 
     return (
         <video
@@ -20,6 +22,9 @@ const Gvstavo: React.FC = () => {
                 const text = prompt("oW7spS3KnHsbWQ0-Dw21YQ");
                 if (text === "você" || text === "voce") {
                     router.push("/gustavo/voce");
+                } else if (!hinted) {
+                    open("https://www.invertexto.com/texto-criptografado", "_blank");
+                    setHinted(true);
                 }
             }}
         ></video>

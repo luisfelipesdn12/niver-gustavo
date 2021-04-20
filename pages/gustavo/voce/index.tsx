@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import React from 'react';
-import { FullImage } from '../../src/styles';
+import { FullImage } from '../../../src/styles';
 
 const Voce: React.FC = () => {
     const router = useRouter();
