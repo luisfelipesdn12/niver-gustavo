@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FullImage } from './styles';
+import { FullImage } from '../src/styles';
 
 const Index: React.FC = () => {
     return (

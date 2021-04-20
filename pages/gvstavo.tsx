@@ -1,5 +1,5 @@
 import React from 'react';
-import { FullImage } from './styles';
+import { FullImage } from '../src/styles';
 
 const Gvstavo: React.FC = () => {
     return (
